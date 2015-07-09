@@ -1,0 +1,23 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~UseControlGains" : \b [bool] Use Control Commands for prediction in EKF min: False, default: True, max: True
+- \b "~UseNavdata" : \b [bool] Enable EKF-Updates from Navdata min: False, default: True, max: True
+- \b "~UsePTAM" : \b [bool] Enable EKF-Updates from PTAM min: False, default: True, max: True
+- \b "~PTAMMapLock" : \b [bool] Lock PTAM Map (take no more KF) min: False, default: False, max: True
+- \b "~PTAMSyncLock" : \b [bool] Lock PTAM <-> EKF sync (fix scale & offsets) min: False, default: False, max: True
+- \b "~PTAMMaxKF" : \b [int] Max. Number of KF (1 => inf) min: 1, default: 200, max: 1000
+- \b "~PTAMMinKFDist" : \b [double] Min. new KF distance in meters (only works properly after scale init) min: 0.0, default: 0.4, max: 5.0
+- \b "~PTAMMinKFWiggleDist" : \b [double] Min. new KF distance relative to mean scene depth. min: 0.0, default: 0.075, max: 10.0
+- \b "~PTAMMinKFTimeDiff" : \b [double] Min. time between taking two KF in seconds min: 0.0, default: 0.5, max: 10.0
+- \b "~RescaleFixOrigin" : \b [bool] on scale reestimation: if TRUE, the map init pos remains fixed, if false, the current drone pos remains fixed. min: False, default: True, max: True
+- \b "~c1" : \b [double] prediction model parameter min: 0.0, default: 0.58, max: 50.0
+- \b "~c2" : \b [double] prediction model parameter min: 0.0, default: 17.5, max: 50.0
+- \b "~c3" : \b [double] prediction model parameter min: 0.0, default: 7.0, max: 50.0
+- \b "~c4" : \b [double] prediction model parameter min: 0.0, default: 24.0, max: 50.0
+- \b "~c5" : \b [double] prediction model parameter min: 0.0, default: 25.0, max: 50.0
+- \b "~c6" : \b [double] prediction model parameter min: 0.0, default: 90.0, max: 200.0
+- \b "~c7" : \b [double] prediction model parameter min: 0.0, default: 0.8, max: 50.0
+- \b "~c8" : \b [double] prediction model parameter min: 0.0, default: 0.6, max: 50.0
+

@@ -1,0 +1,24 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="monoslam_ros_test" type="Config">
+  <param name="UseControlGains" type="bool" value="True" />
+  <param name="UseNavdata" type="bool" value="True" />
+  <param name="UsePTAM" type="bool" value="True" />
+  <param name="PTAMMapLock" type="bool" value="False" />
+  <param name="PTAMSyncLock" type="bool" value="False" />
+  <param name="PTAMMaxKF" type="int" value="200" />
+  <param name="PTAMMinKFDist" type="double" value="0.4" />
+  <param name="PTAMMinKFWiggleDist" type="double" value="0.075" />
+  <param name="PTAMMinKFTimeDiff" type="double" value="0.5" />
+  <param name="RescaleFixOrigin" type="bool" value="True" />
+  <param name="c1" type="double" value="0.58" />
+  <param name="c2" type="double" value="17.5" />
+  <param name="c3" type="double" value="7.0" />
+  <param name="c4" type="double" value="24.0" />
+  <param name="c5" type="double" value="25.0" />
+  <param name="c6" type="double" value="90.0" />
+  <param name="c7" type="double" value="0.8" />
+  <param name="c8" type="double" value="0.6" />
+</node>
+\endverbatim
+

@@ -1,0 +1,22 @@
+<package>
+  <description brief="movisslam_ros_test">
+
+     movisslam_ros_test
+
+  </description>
+  <author>rui</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/movisslam_ros_test</url>
+  <depend package="tf"/>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="cv_bridge"/>
+  <depend package="geometry_msgs"/>
+  <depend package="dynamic_reconfigure"/>
+  <depend package="bullet"/>
+</package>
+
+

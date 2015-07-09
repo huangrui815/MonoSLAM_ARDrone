@@ -1,0 +1,20 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~Ki_yaw" : \b [double] PID control parameter min: 0.0, default: 0.0, max: 1.0
+- \b "~Kd_yaw" : \b [double] PID control parameter min: 0.0, default: 0.0, max: 1.0
+- \b "~Kp_yaw" : \b [double] PID control parameter min: 0.0, default: 0.05, max: 1.0
+- \b "~max_yaw" : \b [double] Max. Yaw control sent (ever) min: 0.0, default: 0.2, max: 1.0
+- \b "~Ki_gaz" : \b [double] PID control parameter min: 0.0, default: 0.001, max: 1.0
+- \b "~Kd_gaz" : \b [double] PID control parameter min: 0.0, default: 0.1, max: 1.0
+- \b "~Kp_gaz" : \b [double] PID control parameter min: 0.0, default: 0.6, max: 1.0
+- \b "~rise_fac" : \b [double] positive gaz values are multiplied by this min: 0.0, default: 2.5, max: 5.0
+- \b "~max_gaz_rise" : \b [double] max. (positive) gaz control sent. min: 0.0, default: 0.2, max: 1.0
+- \b "~max_gaz_drop" : \b [double] max. (negative) gaz control sent. min: -1.0, default: -0.2, max: 0.0
+- \b "~Ki_rp" : \b [double] PID control parameter min: 0.0, default: 0.0, max: 1.0
+- \b "~Kd_rp" : \b [double] PID control parameter min: 0.0, default: 0.35, max: 1.0
+- \b "~Kp_rp" : \b [double] PID control parameter min: 0.0, default: 0.5, max: 1.0
+- \b "~max_rp" : \b [double] max roll/pitch control sent. min: 0.0, default: 0.2, max: 1.0
+- \b "~agressiveness" : \b [double] global multiplyer to PI control. min: 0.0, default: 1.0, max: 5.0
+

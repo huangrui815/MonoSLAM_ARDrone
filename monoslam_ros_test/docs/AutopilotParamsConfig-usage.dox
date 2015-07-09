@@ -1,0 +1,21 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="monoslam_ros_test" type="Config">
+  <param name="Ki_yaw" type="double" value="0.0" />
+  <param name="Kd_yaw" type="double" value="0.0" />
+  <param name="Kp_yaw" type="double" value="0.05" />
+  <param name="max_yaw" type="double" value="0.2" />
+  <param name="Ki_gaz" type="double" value="0.001" />
+  <param name="Kd_gaz" type="double" value="0.1" />
+  <param name="Kp_gaz" type="double" value="0.6" />
+  <param name="rise_fac" type="double" value="2.5" />
+  <param name="max_gaz_rise" type="double" value="0.2" />
+  <param name="max_gaz_drop" type="double" value="-0.2" />
+  <param name="Ki_rp" type="double" value="0.0" />
+  <param name="Kd_rp" type="double" value="0.35" />
+  <param name="Kp_rp" type="double" value="0.5" />
+  <param name="max_rp" type="double" value="0.2" />
+  <param name="agressiveness" type="double" value="1.0" />
+</node>
+\endverbatim
+

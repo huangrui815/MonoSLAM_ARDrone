@@ -1,0 +1,22 @@
+#mode
+offline
+
+#calibration files
+$/home/rui/workspace/calibrations/ardrone_cam3.txt
+$/home/rui/workspace/calibrations/aerial_uav_fake.txt
+/home/rui/workspace/calibrations/firefly_mv.txt
+
+
+#video path
+$/media/rui/Data/SFM_data/ARDrone/flight_data_pc/data71/video.avi
+$/media/rui/Data/SFM_data/uav_aerial_video.avi
+/home/rui/workspace/calibrations/firefly_mv/video0.avi
+
+#skipped frames
+600
+
+#init frames
+150
+
+
+
