@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Monoslam ardrone by Rui Huang<</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name"><font size="6">MonoSLAM based Navigation System for AR.Drone</font></h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/huangrui815/MonoSLAM_ARDrone" class="btn">View on GitHub</a>
+      <a href="https://github.com/huangrui815/MonoSLAM_ARDrone/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/huangrui815/MonoSLAM_ARDrone/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Abstract</h3>
+
+<p>we present an monocular vision-based autonomous navigation system for a commercial quadcoptor. The quadcoptor communicates with a ground-based laptop via wireless connection. The video stream of the front camera on the drone and the navigation data measured onboard are sent to the ground station and then processed by a vision-based SLAM system. In order to handle motion blur and frame lost in the received video, our SLAM system consists of a improved robust feature tracking scheme and a relocalisation module which achieves fast recovery from tracking failure. An Extended Kalman filter (EKF) is designed for sensor fusion. Thanks to the proposed EKF, accurate 3D positions and velocities can be estimated as well as the scaling factor of the monocular SLAM. Using a motion capture system with millimeter-level precision, we also identify the system models of the quadcoptor and design the PID controller accordingly. We demonstrate that the quadcoptor can navigate along pre-defined paths in an unknown indoor environment with our system using its front camera and onboard sensors only after some simple manual initialization procedures.</p>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Video Demo</h3>
+
+<td>
+<h3>Video Demo I: Hovering</h3>
+<tr style="mso-yfti-irow:1" align="center">
+    <td style="padding:.75pt .75pt .75pt .75pt">
+    <iframe src="http://player.vimeo.com/video/123262303" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</tr>
+</td>
+
+<td>
+<h3>Video Demo II: Square Path Following</h3>
+<!--<p style="text-align: justify">The drone takes off and is manually controlled to move side to side for the system initialization. After that, it goes to the starting point of a pre-defined path and start following the path.</p>
+-->
+<tr style="mso-yfti-irow:1" align="center">
+    <td style="padding:.75pt .75pt .75pt .75pt">
+    <iframe src="https://player.vimeo.com/video/123264747" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</tr>
+</td>
+
+<td>
+<h3>Video Demo III: Circle Path Following</h3>
+<tr style="mso-yfti-irow:1" align="center">
+    <td style="padding:.75pt .75pt .75pt .75pt">
+    <iframe src="http://player.vimeo.com/video/123258299" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</tr>
+</td>
+
+<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Publication</h3>
+
+<p><b>R. Huang</b>, P. Tan and B. M. Chen, <b>Monocular vision-based autonomous navigation system on a toy quadcopter in unknown environments</b>, Proceedings of the 2015 International Conference on Unmanned Aircraft Systems, Denver, USA, pp. 1260-1269, June 2015. <a href="https://drive.google.com/open?id=0B_0yL6uDPBqSSmY4TVdsa1M4Nlk">PDF</a></p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h3>
+<p>Please feel free to contact me if you are interested in this work and encounter problems using the software.
+<p>Rui Huang, Simon Fraser University</p>
+<p>Email: rha55@sfu.ca</p>
+<p>Personal Webpage: http://www.sfu.ca/~rha55/</p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h3>
+<p>The code is for the development of research-based applications. It could be messy and tricky to set up. I am sorry that a detailed instruction is under development. Please contact me if you are interested in the work for now.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/huangrui815/MonoSLAM_ARDrone">Monoslam ardrone</a> is maintained by <a href="https://github.com/huangrui815">huangrui815</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
